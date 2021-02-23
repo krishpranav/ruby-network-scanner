@@ -1,0 +1,5 @@
+set -euo pipefail
+IPS=$'\n\t'
+set -vx
+
+bundle install

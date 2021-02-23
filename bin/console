@@ -1,0 +1,7 @@
+#!/usr/bin/env/ ruby
+
+require "bundler/setup"
+require "ruby_network_scanner"
+
+require "irb"
+IRB.start(__FILE__)
