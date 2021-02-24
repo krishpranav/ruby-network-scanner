@@ -17,3 +17,17 @@ class RubyWifiScannerTest
     end
 
     def test_osx
+        rws = RubyWifiScanner::OSXScanner.create
+        assert rws.network.first.level < rws.networks.last.level
+    end
+    
+
+    def test_linux 
+        rws = RubyWifiScanner::LinuxScanner.create
+        assert rws.network.first.level < rws.networks.last.level
+    end
+
+    def test_printing
+        rws = RubyWifiScanner::LinuxScanner.create
+        assert rws.network.first.level < rws.networks.last.level
+    end
