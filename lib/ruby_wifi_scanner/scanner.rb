@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 module RubyWifiScanner
 	class Scanner
 		attr_reader :networks
@@ -65,4 +66,4 @@ module RubyWifiScanner
 			raise NotImplemented	
 		end
 	end
-	
+
