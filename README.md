@@ -7,3 +7,6 @@ A simple ruby tool for scanning your network
 - sudo chmod +x *
 - cd lib
 - ruby ruby_wifi_scanner.rb
+
+# Use This Tool For Education Purpose
+# Tool is created by krishpranav
